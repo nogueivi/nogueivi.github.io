@@ -1,8 +1,17 @@
 - skill: Web Development
-  # description: 
+  description: HTML/CSS, Javascript, ReactJS
 
 - skill: Backend
-  # description: 
+  description: Java 8+, Spring, Spring Boot
 
 - skill: Databases
-  # description:
+  description: MySQL, PostgreSQL, MongoDB
+
+- skill: AWS Services
+  description: S3, EC2, Cloudfront, Cloudwatch, Beanstalk, Lambda, API Gateway
+  
+- skill: Continuous integration
+  description: Git, Jira, Jenkins, SonarQube
+  
+- skill: Tools
+  description: IntelliJ, Visual Studio Code, Maven, Docker
