@@ -4,7 +4,7 @@
   <!-- Resume link -->
   {% if site.resume_social_links.resume_print_url %}
   <li class="icon-link-item" title="Resume">
-    <a href="{{ site.resume_social_links.resume_print_url }}" class="icon-link" itemprop="sameAs" download="vitor_nogueira.pdf" title="Resume">
+    <a href="{{ site.resume_social_links.resume_print_url }}" class="icon-link" itemprop="sameAs" download="vitor_nogueira.pdf">
       {% include icons/icon-pdf.html %}
     </a>
   </li>
@@ -12,8 +12,8 @@
 
   <!-- GitHub link -->
   {% if site.resume_social_links.resume_github_url %}
-  <li class="icon-link-item">
-    <a href="{{ site.resume_social_links.resume_github_url }}" class="icon-link" itemprop="sameAs" title="Github">
+  <li class="icon-link-item" title="Github">
+    <a href="{{ site.resume_social_links.resume_github_url }}" class="icon-link" itemprop="sameAs">
       {% include icons/icon-github.html %}
     </a>
   </li>
@@ -21,8 +21,8 @@
 
   <!-- LinkedIn link -->
   {% if site.resume_social_links.resume_linkedin_url %}
-  <li class="icon-link-item">
-    <a href="{{ site.resume_social_links.resume_linkedin_url }}" class="icon-link" itemprop="sameAs" title="LinkedIn">
+  <li class="icon-link-item" title="LinkedIn">
+    <a href="{{ site.resume_social_links.resume_linkedin_url }}" class="icon-link" itemprop="sameAs">
       {% include icons/icon-linkedin.html %}
     </a>
   </li>
@@ -30,8 +30,8 @@
 
   <!-- Website link -->
   {% if site.resume_social_links.resume_website_url %}
-  <li class="icon-link-item">
-    <a href="{{ site.resume_social_links.resume_website_url }}" class="icon-link" itemprop="url" title="Website">
+  <li class="icon-link-item" title="Website">
+    <a href="{{ site.resume_social_links.resume_website_url }}" class="icon-link" itemprop="url">
       {% include icons/icon-website.html %}
     </a>
   </li>
