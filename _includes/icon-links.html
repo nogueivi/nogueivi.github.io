@@ -1,24 +1,40 @@
 {% if site.resume_social_links %}
 <ul class="icon-links">
 
-  <!-- GitHub link -->
-  {% if site.resume_social_links.resume_github_url %}
-  <li class="icon-link-item"><a href="{{ site.resume_social_links.resume_github_url }}" class="icon-link" itemprop="sameAs">{% include icons/icon-github.html %}</a></li>
+  <!-- Resume link -->
+  {% if site.resume_social_links.resume_print_url %}
+  <li class="icon-link-item">
+    <a href="{{ site.resume_social_links.resume_print_url }}" class="icon-link" itemprop="sameAs" download="vitor_nogueira.pdf">
+      {% include icons/icon-pdf.html %}
+    </a>
+  </li>
   {% endif %}
 
-  <!-- Twitter link -->
-  {% if site.resume_social_links.resume_twitter_url %}
-  <li class="icon-link-item"><a href="{{ site.resume_social_links.resume_twitter_url }}" class="icon-link" itemprop="sameAs">{% include icons/icon-twitter.html %}</a></li>
+  <!-- GitHub link -->
+  {% if site.resume_social_links.resume_github_url %}
+  <li class="icon-link-item">
+    <a href="{{ site.resume_social_links.resume_github_url }}" class="icon-link" itemprop="sameAs">
+      {% include icons/icon-github.html %}
+    </a>
+  </li>
   {% endif %}
 
   <!-- LinkedIn link -->
   {% if site.resume_social_links.resume_linkedin_url %}
-  <li class="icon-link-item"><a href="{{ site.resume_social_links.resume_linkedin_url }}" class="icon-link" itemprop="sameAs">{% include icons/icon-linkedin.html %}</a></li>
+  <li class="icon-link-item">
+    <a href="{{ site.resume_social_links.resume_linkedin_url }}" class="icon-link" itemprop="sameAs">
+      {% include icons/icon-linkedin.html %}
+    </a>
+  </li>
   {% endif %}
 
   <!-- Website link -->
   {% if site.resume_social_links.resume_website_url %}
-  <li class="icon-link-item"><a href="{{ site.resume_social_links.resume_website_url }}" class="icon-link" itemprop="url">{% include icons/icon-website.html %}</a></li>
+  <li class="icon-link-item">
+    <a href="{{ site.resume_social_links.resume_website_url }}" class="icon-link" itemprop="url">
+      {% include icons/icon-website.html %}
+    </a>
+  </li>
   {% endif %}
 
 </ul>
